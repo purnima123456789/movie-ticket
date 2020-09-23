@@ -34,6 +34,7 @@ public class UserController {
 
 		
 	}
+	//yes
 //	@PostMapping("/AddingUser")
 //	public User addingUser(@RequestBody User user)
 //	{	
