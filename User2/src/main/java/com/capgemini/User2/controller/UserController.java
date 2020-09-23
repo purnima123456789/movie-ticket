@@ -22,7 +22,7 @@ public class UserController {
 	
 	
 	
-	
+	//methods
 	@RequestMapping(method = RequestMethod.POST,value = "/signup")
 	public ResponseEntity<?> register(@RequestBody User user){
 		boolean signedUp = IUserService.RegisterUser(user);
