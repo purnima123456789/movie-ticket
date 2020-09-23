@@ -12,7 +12,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name="Ticket")
 public class Ticket {
-    //Ticket entity
+    //Ticket entity 
 	@Id
     @GeneratedValue(strategy = GenerationType.AUTO)
 	@Column(name="ticketId")
